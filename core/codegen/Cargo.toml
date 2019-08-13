@@ -15,12 +15,12 @@ proc-macro = true
 
 [dependencies]
 cuke_runner_glue = { path = "../glue" }
-syn = { version = "0.14", features = ["full"] }
+syn = { version = "0.15", features = ["full"] }
 quote = "0.6"
 proc-macro2 = "0.4"
 regex = "1"
 log = "0.4"
-devise = "0.1"
+devise = "0.2"
 
 [dev-dependencies]
 cuke_runner = { path = "../lib" }
